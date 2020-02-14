@@ -208,6 +208,7 @@ ja:
       create_agenda: 'アジェンダ作成に成功しました！'
       destroy_agenda: 'アジェンダ削除に成功しました！'
       cannot_destroy_agenda: 'アジェンダは作成者か、チームのオーナーにしか削除できません。'
+      confirm_delete_agenda: 'アジェンダを削除しますか？'
       create_article: '記事作成に成功しました！'
       update_article: '記事更新に成功しました！'
       assigned: 'アサインしました！'

@@ -36,7 +36,7 @@
                 <%= agenda.title %>
                 <i class="right fa fa-angle-left"></i>
               </p>
-              <%= link_to I18n.t('views.button.delete'), agenda_path(agenda), method: :delete, class: 'ml-3' %>
+              <%= link_to I18n.t('views.button.delete'), agenda_path(agenda), method: :delete, class: 'ml-3', data: { confirm: I18n.t('views.messages.confirm_delete_agenda') } %>
           </div>
             <ul class="nav nav-treeview" style="display: block;">
               <% agenda.articles.each do |article| %>

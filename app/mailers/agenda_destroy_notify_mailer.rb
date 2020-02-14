@@ -4,6 +4,6 @@ class AgendaDestroyNotifyMailer < ApplicationMailer
     @emails = @agenda.team.members.inject('') do |emails, member|
       emails + member.email + ','
     end
-    mail to: "#{@emails}", subject: "アジェンダの削除のお知らせ"
+    mail to: @emails, subject: "アジェンダの削除のお知らせ"
   end
 end
