@@ -26,6 +26,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
       <div class="content-wrapper">
         <div class="content">
+          <%= link_to 'ログアウト', destroy_user_session_path, method: :delete %>
           <%= yield %>
         </div>
       </div>
