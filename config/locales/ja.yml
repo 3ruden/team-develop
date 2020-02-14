@@ -206,12 +206,16 @@ ja:
   views:
     messages:
       create_agenda: 'アジェンダ作成に成功しました！'
+      destroy_agenda: 'アジェンダ削除に成功しました！'
+      cannot_destroy_agenda: 'アジェンダは作成者か、チームのオーナーにしか削除できません。'
+      confirm_delete_agenda: 'アジェンダを削除しますか？'
       create_article: '記事作成に成功しました！'
       update_article: '記事更新に成功しました！'
       assigned: 'アサインしました！'
       failed_to_assign: 'アサインに失敗しました！'
       cannot_delete_the_leader: 'リーダーは削除できません。'
       cannot_delete_only_a_member: 'このユーザーはこのチームにしか所属していないため、削除できません。'
+      cannot_delete_not_self_member: '自分以外のユーザーは削除できません。'
       delete_member: 'メンバーを削除しました。'
       cannot_delete_member_4_some_reason: 'なんらかの原因で、削除できませんでした。'
       failed_to_post: '投稿できませんでした...'
@@ -219,6 +223,8 @@ ja:
       failed_to_save_team: '保存に失敗しました、、'
       update_team: 'チーム更新に成功しました！'
       delete_team: 'チーム削除に成功しました！'
+      change_team_leader: 'チームリーダーを変更しました！'
+      confirm_change_leader: 'チームリーダーの権限を渡しますか？'
       update_profile: 'プロフィールを編集しました！'
       complete_registration: '登録完了'
       edit_article: '記事を編集する'
@@ -257,6 +263,7 @@ ja:
       delete: '削除'
       create: '作成'
       invite: '招待'
+      change_team_leader: '権限移動'
     top:
       line1: 'このアプリケーションは、チームごと、議題ごとに別れて'
       line2: '特定のイシュー（議題）をメンバーで見やすく共有するためのアプリケーションです'
